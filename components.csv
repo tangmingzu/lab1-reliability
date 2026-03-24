@@ -1,0 +1,9 @@
+Component,Lambda (1/h),Description
+PowerSupply,0.0001,主电源
+PLC,0.00005,控制器
+SafetyChain,0.00002,安全链
+LiftMotor,0.0002,提升电机
+LiftMotorBackup,0.0002,提升电机备份
+TravelMotor,0.00015,行走电机
+Gripper,0.0003,抓手
+Encoder,0.0001,编码器

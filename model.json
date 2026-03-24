@@ -1,0 +1,54 @@
+{
+  "mission_phases": {
+    "Pick": {
+      "series": [
+        "PowerSupply",
+        "PLC",
+        "SafetyChain",
+        "Gripper"
+      ]
+    },
+    "Lift": {
+      "series": [
+        "PowerSupply",
+        "PLC",
+        "SafetyChain",
+        {
+          "parallel": [
+            "LiftMotor",
+            "LiftMotorBackup"
+          ]
+        },
+        "Gripper",
+        "Encoder"
+      ]
+    },
+    "TravelLoaded": {
+      "series": [
+        "PowerSupply",
+        "PLC",
+        "SafetyChain",
+        "TravelMotor",
+        "Gripper",
+        "Encoder"
+      ]
+    },
+    "Place": {
+      "series": [
+        "PowerSupply",
+        "PLC",
+        "SafetyChain",
+        "Gripper"
+      ]
+    },
+    "ReturnEmpty": {
+      "series": [
+        "PowerSupply",
+        "PLC",
+        "SafetyChain",
+        "TravelMotor",
+        "Encoder"
+      ]
+    }
+  }
+}

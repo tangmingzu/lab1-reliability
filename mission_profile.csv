@@ -1,0 +1,6 @@
+Stage,Duration_h,PowerSupply,PLC,SafetyChain,LiftMotor,LiftMotorBackup,TravelMotor,Gripper,Encoder
+Pick,0.1,1,1,1,0,0,0,1,0
+Lift,0.05,1,1,1,1,1,0,1,1
+TravelLoaded,0.2,1,1,1,0,0,1,1,1
+Place,0.1,1,1,1,0,0,0,1,0
+ReturnEmpty,0.15,1,1,1,0,0,1,0,1
